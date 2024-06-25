@@ -1,0 +1,189 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+:root{
+    --fonte-destaque: "Playball";
+    --fonte-basica: Arial, Verdana, Sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(182, 150, 150);
+}
+
+header{
+    color: white;
+    background-image: linear-gradient(rgb(247, 105, 105),rgb(247, 75, 75),rgb(248, 47, 47));
+    height: 200px;
+}
+header h1 {
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.342);
+}
+
+header p {
+    text-align: center;
+    font-family: var(--fonte-basica);
+    padding-bottom: 50px;
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.253);
+    
+}
+
+nav{
+    background-color: rgb(248, 47, 47); 
+    height: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    font-weight: bolder;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    font-family: var(--fonte-basica);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.247);
+    text-decoration: none;
+    background-color: rgb(75, 1, 1);
+    color: white;
+    padding: 8px;
+    border-radius: 10px 0px 10px 0px;
+}
+
+nav a:hover{
+    background-color: rgb(248, 174, 174);
+    color: rgb(75, 1, 1);
+    padding: 5px;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    border-radius: 10px 0px 100px 0px;
+    
+}
+abbr {
+    text-decoration: none;
+
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    max-width: 800px;
+    min-width: 320px;
+    padding: 10px;
+    box-shadow: 2px rgba(0, 0, 0, 0.315);
+    border-radius: 0px 0px 5px 5px;
+}
+main h1{
+    font-family: var(--fonte-destaque);
+    color: rgb(75, 1, 1);
+    background-image: linear-gradient(to right,rgb(248, 47, 47),transparent);
+    text-align: center;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.144);
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+main p {
+    text-indent: 2em;
+    font-family: var(--fonte-basica);
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: justify;
+}
+
+img {
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
+
+main h2 {
+    font-family: var(--fonte-destaque);
+    color: rgb(75, 1, 1);
+    background-image: linear-gradient(to right,rgb(248, 47, 47),transparent);
+    text-align: center;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.144);
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.24);
+    padding: 10px;
+}
+
+
+main > p > a {
+    text-decoration: none;
+    margin: auto;
+    color: black;
+    font-weight: bolder;
+}
+main > p > a:hover{
+    background-color: rgb(245, 144, 164);
+    padding: 5px;
+    box-shadow: 2px 2px brgba(0, 0, 0, 0.068);
+    border-radius: 22px 0px 22px 0px;
+}
+
+.video {
+    background-color: rgb(248, 47, 47) ;
+    margin: 10px -3px 30px -3px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 50%;
+}
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+ol{
+    background-color: rgb(248, 155, 155);
+    color: black;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.219);
+    font-family: var(--fonte-basica);
+    list-style-position: inside;
+    columns: 1; 
+    font-weight: bolder;   
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    background-color: rgba(165, 42, 42, 0.438);
+    border-radius: 5px;
+}
+
+li a:hover {
+    background-color:rgb(248, 174, 174);
+    color: rgb(49, 49, 49);
+}
+
+footer{
+    background-color: rgb(248, 47, 47);
+    height: 65px;
+    margin-top: 10px;
+    padding: 10px;
+    box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.849);
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-family: var(--fonte-basica);
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.253);
+}
