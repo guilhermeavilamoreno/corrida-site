@@ -91,6 +91,7 @@ main{
 main h1{
     font-family: var(--fonte-destaque);
     color: var(--cor05);
+    font-size: 28px;
     background-image: linear-gradient(to right,var(--cor03),transparent);
     text-align: center;
     border-radius: 20px 0px 20px 0px;
