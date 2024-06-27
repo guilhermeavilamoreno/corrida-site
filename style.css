@@ -25,7 +25,7 @@ body{
 header{
     color: white;
     background-image: linear-gradient(var(--cor03), var(--cor01), var(--cor02));
-    height: 270px;
+    height: 200px;
 }
 
 header h1 {
@@ -34,14 +34,14 @@ header h1 {
     margin: auto;
     font-family: var(--fonte-destaque);
     text-align: center;
-    font-size: 70px;
+    font-size: 50px;
     color: rgba(241, 237, 237, 0.836);
     text-shadow: 2px 2px rgba(0, 0, 0, 0.342);
 }
 
 header p {
     text-align: center;
-    font-size: 1,5em;
+    font-size: 1em;
     font-family: var(--fonte-destaque);
     color: rgba(241, 237, 237, 0.836);
     padding-bottom: 80px;
