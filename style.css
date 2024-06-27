@@ -169,6 +169,10 @@ ol{
     font-weight: bolder;   
 }
 
+li{
+    padding: 5px;
+}
+
 li a{
     text-decoration: none;
     color: var(--cor05);
