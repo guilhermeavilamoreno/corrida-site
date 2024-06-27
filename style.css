@@ -17,7 +17,7 @@ body{
 header{
     color: white;
     background-image: linear-gradient(rgb(247, 105, 105),rgb(247, 75, 75),rgb(248, 47, 47));
-    height: 200px;
+    height: 270px;
 }
 header h1 {
     min-width: 320px;
@@ -39,9 +39,11 @@ header p {
 
 nav{
     background-color: rgb(248, 47, 47); 
-    height: 18px; 
+    height: 20px; 
     padding: 10px;
-    text-align: center;
+    padding-bottom: 20px;
+    
+    
 }
 
 nav a {
@@ -52,9 +54,9 @@ nav a {
     font-family: var(--fonte-basica);
     text-shadow: 1px 1px rgba(0, 0, 0, 0.247);
     text-decoration: none;
-    background-color: rgb(75, 1, 1);
+   
     color: rgb(243, 199, 199);
-    padding: 12px;
+    padding: 8px;
     border-radius: 10px 0px 10px 0px;
 }
 
@@ -129,6 +131,7 @@ main > p > a:hover{
     box-shadow: 2px 2px brgba(0, 0, 0, 0.068);
     border-radius: 22px 0px 22px 0px;
 }
+
 
 .video {
     background-color: rgb(248, 47, 47) ;
