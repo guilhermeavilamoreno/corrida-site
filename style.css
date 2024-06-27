@@ -4,19 +4,25 @@
 :root{
     --fonte-destaque: "Playball";
     --fonte-basica: Arial, Verdana, Sans-serif;
+    --cor01: #916730;
+    --cor02: #665033;
+    --cor03: #BB771F;
+    --cor04: #E68400;
+    --cor05: #3C3328;
 }
+
 *{
     margin: 0px;
     padding: 0px;
 }
 
 body{
-    background-color: rgb(182, 150, 150);
+    background-color: rgb(197, 193, 193);
 }
 
 header{
     color: white;
-    background-image: linear-gradient(rgb(247, 105, 105),rgb(247, 75, 75),rgb(248, 47, 47));
+    background-image: linear-gradient(var(--cor03), var(--cor01), var(--cor02));
     height: 270px;
 }
 header h1 {
@@ -34,16 +40,13 @@ header p {
     font-family: var(--fonte-basica);
     padding-bottom: 80px;
     text-shadow: 1px 2px rgba(0, 0, 0, 0.253);
-    
 }
 
 nav{
-    background-color: rgb(248, 47, 47); 
+    background-color: var(--cor02); 
     height: 20px; 
     padding: 10px;
     padding-bottom: 20px;
-    
-    
 }
 
 nav a {
@@ -54,22 +57,22 @@ nav a {
     font-family: var(--fonte-basica);
     text-shadow: 1px 1px rgba(0, 0, 0, 0.247);
     text-decoration: none;
-   
-    color: rgb(243, 199, 199);
+    color: white;
     padding: 8px;
     border-radius: 10px 0px 10px 0px;
 }
 
 nav a:hover{
-    background-color: rgb(248, 174, 174);
-    color: rgb(75, 1, 1);
+    background-color: var(--cor04);
+    color: var(--cor05);
     padding: 12px;
     border-radius: 10px 0px 100px 0px;
     
 }
 abbr {
     text-decoration: none;
-
+    color: var(--cor05);
+    background-color: var(--cor04);
 }
 
 main{
@@ -81,10 +84,11 @@ main{
     box-shadow: 2px rgba(0, 0, 0, 0.315);
     border-radius: 0px 0px 5px 5px;
 }
+
 main h1{
     font-family: var(--fonte-destaque);
-    color: rgb(75, 1, 1);
-    background-image: linear-gradient(to right,rgb(248, 47, 47),transparent);
+    color: var(--cor05);
+    background-image: linear-gradient(to right,var(--cor03),transparent);
     text-align: center;
     border-radius: 20px 0px 20px 0px;
     box-shadow: 1px 1px rgba(0, 0, 0, 0.144);
@@ -109,8 +113,8 @@ img {
 
 main h2 {
     font-family: var(--fonte-destaque);
-    color: rgb(75, 1, 1);
-    background-image: linear-gradient(to right,rgb(248, 47, 47),transparent);
+    color: var(--cor05);
+    background-image: linear-gradient(to right,var(--cor03),transparent);
     text-align: center;
     border-radius: 20px 0px 20px 0px;
     box-shadow: 1px 1px rgba(0, 0, 0, 0.144);
@@ -118,12 +122,12 @@ main h2 {
     padding: 10px;
 }
 
-
 main > p > a {
     text-decoration: none;
     margin: auto;
     color: black;
     font-weight: bolder;
+
 }
 main > p > a:hover{
     background-color: rgb(245, 144, 164);
@@ -132,13 +136,13 @@ main > p > a:hover{
     border-radius: 22px 0px 22px 0px;
 }
 
-
 .video {
-    background-color: rgb(248, 47, 47) ;
+   background-color: var(--cor03);
     margin: 10px -3px 30px -3px;
     padding: 20px;
     position: relative;
     padding-bottom: 50%;
+
 }
 .video > iframe {
     position: absolute;
@@ -149,7 +153,7 @@ main > p > a:hover{
 }
 
 ol{
-    background-color: rgb(248, 155, 155);
+    background-color: var(--cor03);
     color: black;
     margin-top: 10px;
     padding: 10px;
@@ -163,18 +167,18 @@ ol{
 
 li a{
     text-decoration: none;
-    color: black;
-    background-color: rgba(165, 42, 42, 0.438);
+    color: var(--cor05);
+    background-color: var(--cor04);
     border-radius: 5px;
 }
 
 li a:hover {
-    background-color:rgb(248, 174, 174);
-    color: rgb(49, 49, 49);
+    background-color:var(--cor03);
+    color: var(--cor05);
 }
 
 footer{
-    background-color: rgb(248, 47, 47);
+    background-color:var(--cor03);
     height: 65px;
     margin-top: 10px;
     padding: 10px;
