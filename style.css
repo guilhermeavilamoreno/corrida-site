@@ -47,16 +47,15 @@ nav {
     height: 20px; 
     padding: 10px;
     padding-bottom: 20px;
+
 }
 
 nav a {
     color: white;
-    background-color:var(--cor02);
     font-weight: bolder;
     font-family: var(--fonte-basica);
     text-shadow: 1px 1px rgba(0, 0, 0, 0.247);
     text-decoration: none;
-    color: white;
     border-radius: 10px 0px 10px 0px;
 }
 
